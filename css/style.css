@@ -1,0 +1,78 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #24353f;
+}
+
+nav {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+nav button {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+nav button:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+nav button:focus {
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.75) !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5) !important;
+}
+
+.main-style .container .row .col-sm .w-75 {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.main-style .container .row .col-sm .w-75 h1 {
+  color: #17a2b8;
+  font-weight: 500;
+}
+
+.main-style .container .row .col-sm .w-75 input {
+  background-color: transparent;
+  color: #fff;
+}
+
+.main-style .container .row .col-sm .w-75 input::placeholder {
+  color: #b6b6b6;
+}
+
+.main-style .container .row .col-sm .w-75 .form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.btn-outline-info {
+  --bs-btn-color: #17a2b8;
+  --bs-btn-border-color: #17a2b8;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #17a2b8;
+  --bs-btn-hover-border-color: #17a2b8;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #17a2b8;
+  --bs-btn-active-border-color: #17a2b8;
+}
+
+.btn-outline-info:focus {
+  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+  background-color: transparent;
+  color: #17a2b8;
+}
+
+.main-style .container .row .col-sm .w-75 p button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.main-style .container .row .col-sm .w-75 p button:hover {
+  text-decoration: underline;
+}
+
+.main-style .container .row .col-sm .w-75 p button:focus {
+  border: 1px solid #fff;
+  background-color: transparent;
+}
